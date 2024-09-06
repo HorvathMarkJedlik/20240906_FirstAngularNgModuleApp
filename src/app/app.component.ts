@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = '20240906_FirstAngularNgModuleApp';
+  message = "welcome";
+  a = 12
+  b = 24
+
+  counter = 0
+
+  IncCounter(){
+    this.counter++;
+  }
 }
